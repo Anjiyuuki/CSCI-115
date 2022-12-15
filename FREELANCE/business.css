@@ -1,0 +1,64 @@
+body {
+    background-color: #CEB3F2;
+    
+}
+#wrapper{
+    background-color: #C9EBF2;
+    width: 80%;
+    max-width:1024px;
+    min-width: 700px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header{
+    background-color: #C9BDF2;
+    color: white;
+    height: 140px;
+   
+    
+    
+}
+header h1{
+    font-family: cursive;
+    
+    
+}
+
+h2, h3, h4 {
+    color:  #C9BDF2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: Italic;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
+nav{
+    background-color: #EFD5F2;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    border: 2px solid #B6D6F2;
+    margin: 4px;
+}
+.floatpic{
+    float:right;
+    margin-left: 20px;
+}
+.centerpic{
+    display:block;
+    margin:auto;
+}
+footer{
+    background-color: #EFD5F2;
+
+}

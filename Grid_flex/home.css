@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+}
+#wrapper{
+display: grid;
+grid-template-columns: 200px 1fr 1fr;
+grid-template-rows: 80px 1fr 1fr 60;
+grid-gap:16px;
+
+width: 100%;
+max-height: 600px;
+margin: 0px auto;
+min-width: 700px;
+max-width: 1000px;
+background-color: blanchedalmond;
+grid-template-areas: 
+"head head head"
+"nav sec1 sec1"
+"nav sec2 sec3"
+"foot foot foot"
+;
+}
+
+header{grid-area: head;
+padding: 5px 12px;
+}
+nav{grid-area: nav;
+    padding: 5px 12px;}
+#s1{grid-area: sec1;
+    padding: 5px 12px;}
+#s2{grid-area: sec2;
+    padding: 5px 12px;}
+#s3{grid-area: sec3;
+    padding: 5px 12px;}
+footer{grid-area: foot;
+    padding: 5px 12px;}
+
+#wrapper > section, nav, footer {
+    background-color: yellow;
+}

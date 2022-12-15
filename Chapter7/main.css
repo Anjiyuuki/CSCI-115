@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+#wrapper{
+    background-color: gray;
+    width: 980px;
+    margin: auto;
+}
+main{
+    background-color: white;
+    float: left;
+    width: 550px;
+    padding: 5px;
+
+}
+aside{
+    width: 400px;
+    float: right;
+    padding: 5px;
+    background-color: white;
+}
+
+footer{
+    background-color: lightskyblue;
+    clear:both;
+    height: 150px;
+}
+.actors li{
+    list-style-image: url(icons8-facebook-24.png);
+
+}
+.sources li{
+    list-style-type: upper-alpha;
+    font-size: 150%;
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    background-color: deeppink;
+    width: 96%;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    background-color: black;
+    color: ghostwhite;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+nav ul li :last-child a{ border-right: none;}
