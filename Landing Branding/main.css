@@ -1,0 +1,102 @@
+body{
+    background-image: url(back.jpg);
+}
+header{
+    /* border: 2px solid goldenrod;  */
+    width: 950px;
+    margin: auto;
+    height: inherit;
+
+}
+#topArea{
+    height: 60px;
+    width: 100%;
+    background-color: #fd788b;
+    box-shadow: 3px 5px 4px gray;
+    /* background-image: url(arches.png); */
+    
+
+}
+
+h1{
+    padding-top: 15px;
+    font-family: Jazz LET, fantasy ;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+p{
+    padding: 15px;
+}
+
+main{
+    
+    /* border: 2px solid black; */
+    background-color: rgba(255,192,203, .5);
+    border-radius: 25px;
+    
+    /* padding: 5px; */
+    /* margin-left: auto;
+    margin-right:auto; */
+
+}
+nav{
+    float:right;
+    
+    width: 600px;
+    /* more enhancement */
+    /* background-color: rgba(255,192,203, .5); */
+    /* margin-top: 3px; */
+    border-radius: 15px 15px 0 0;
+    font-weight: bold;
+    text-align: center;
+   
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+nav a{
+    text-decoration: none;
+    color: azure;
+    padding: 0 5px 0 5px;
+}
+nav a:hover{
+    color: black;
+    
+}
+
+.floatpic{
+    float:right;
+    margin-left: 20px;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  img.round {
+    border-radius: 50%;
+    border: 5px solid #555;
+  }
+  figcaption{
+    text-align: center;
+    font-family: Courier, monospace;
+  }
+  ul.a {
+    list-style-type: square;
+
+  }

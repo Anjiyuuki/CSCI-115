@@ -1,0 +1,146 @@
+/* Color Scheme 
+.The-Twelve-Days-of-Christmas-at-Biltmore-3-hex { color: #5D688C; }
+.The-Twelve-Days-of-Christmas-at-Biltmore-4-hex { color: #B0C6D9; }
+.The-Twelve-Days-of-Christmas-at-Biltmore-5-hex { color: #F2F2E9; }
+
+
+Font 
+Headings
+font-family: 'Suez One', serif;
+#wrapper text 
+font-family: 'Gotu', sans-serif;
+
+*/
+
+
+
+body{
+    background-color: #5D688C;
+    
+}
+p{
+    line-height: 150%;
+    color: #3A3A3A;
+}
+li{
+    line-height: 150%;
+    color: #3A3A3A;
+}
+#wrapper{
+    width: 80%;
+    max-width: 1200px;
+    min-width: 750px;
+    margin: 80px auto 0px auto;
+    background-color: #FFFFFF;
+    font-family: 'Gotu', sans-serif;
+}
+img{
+    width: 100%;
+}
+header{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav{
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    background-color: #B0C6D9;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+nav a{
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #5D688C;
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+    color:#5D688C;
+    text-shadow: 1px 1px 2px;
+    font-family: 'Suez One', serif;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#main{
+    display: flex;
+    direction: row;
+}
+
+#column1{
+  
+    flex: 6;
+    margin: 1em;
+    padding: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+    
+}
+#column2 {
+   
+    flex: 4;
+	margin: 1em;
+    padding: 1.5em;
+	background-color: #B0C6D9;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+footer{
+    clear:both;
+    text-align: center;
+    border-top:  1px dotted #5D688C;
+    height: 125px;
+}
+
+table{
+    width: 90%;
+    border: 2px solid rgb(128, 128, 128);
+    background-color: #F2F2E9;
+    border-collapse: collapse;
+  }
+  th,td{
+    border: 1px solid #808080;
+    padding: 4px;
+  }
+  th{
+    background-color: #5D688C;
+  }
+  
+  tr:not(:first-child):hover{
+    background-color: #808080;
+  }
+  @media screen and (max-width:600px){
+   
+   
+    #wrapper{
+        width: 100%;
+        min-width: auto;
+        
+        
+    }
+    #column{
+        flex: 6;
+    }
+    #header h1{
+        font-size: 1.5em;
+    }
+    #main{ 
+        flex-direction: column;
+    }
+}

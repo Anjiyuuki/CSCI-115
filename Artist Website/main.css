@@ -1,0 +1,91 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-family: cursive;
+}
+body{
+    background-color: #000000;
+}
+
+.responsive{
+    width: 100%;
+    height:auto;
+}
+#wrapper{
+    background-color: #808080;
+    width: 980px;
+    margin: auto;
+}
+main{
+    background-color: #ffffff;
+    float: left;
+    width: 550px;
+    padding: 5px;
+
+}
+aside{
+    width: 400px;
+    float: right;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+footer{
+    background-color: #ADD8E6;
+    clear:both;
+    height: 150px;
+}
+.actors li{
+    padding: 10px;
+    list-style-image: url(images/icons8-hand-drawn-star-24.png);
+
+}
+.sources li{
+    list-style-type: upper-alpha;
+    font-size: 150%;
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #ADD8E6;
+    width: 96%;
+    
+}
+nav ul li{
+    float: left;
+    font-family:sans-serif;
+}
+nav ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    background-color: #000000;
+    color: #f8f8ff;
+    font-weight: bold;
+    border-right: 2px solid rgb(255, 255, 255);
+}
+nav ul li :last-child a{ border-right: none;}
+.gallery figure{
+	display: inline;
+}
+.gallery img:hover{
+	border: 2px solid #ADD8E6;
+	padding: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    body{margin: 0;}
+  /* h1{margin: 0;} */
+  #wrapper{width: auto;}
+  aside{
+    width: auto;
+    float: none;
+}
+footer{
+    height:auto;
+}
+}

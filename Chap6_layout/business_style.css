@@ -1,0 +1,86 @@
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Quantico', sans-serif; */
+body{
+    background-color: blueviolet;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+}
+#topArea{
+    height: 75px;
+    width: 100%;
+    background-color: cadetblue;
+    box-shadow: 3px 5px 4px gray;
+    background-image: url(arches.png);
+    
+
+}
+header{
+    /* border: 2px solid goldenrod;  */
+    width: 950px;
+    margin: auto;
+    height: inherit;
+
+}
+#logo{
+    float:left;
+    width:250px;
+}
+nav{
+    float:right;
+    width: 600px;
+    /* more enhancement */
+    background-color: rgba(0, 0, 255, .5);
+    margin-top: 25px;
+    border-radius: 15px 15px 0 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+nav a{
+    text-decoration: none;
+    color: azure;
+    padding: 0 5px 0 5px;
+}
+nav a:hover{
+    color: pink;
+    
+}
+#wrapper{
+    width: 950px;
+    margin: auto;
+    
+}
+#hero{
+    background-image: url(heropic.webp);
+    height: 350px;
+    /* border-radius: 25;
+    background-size: cover; */
+}
+main{
+
+    background-color: white;
+    margin: 0px 3px;
+}
+figcaption{
+    font-family: 'Quantico', sans-serif;
+}
+figure{
+    height: 300px;
+    float: left;
+    margin: 7px;
+}
+footer{
+    background-color: gray;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
